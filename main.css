@@ -1,0 +1,58 @@
+html {
+  min-height: 100%;
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+  background: url("img/alexandra-rose-ccWJHxUeM7c-unsplash.jpg") no-repeat
+    center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+/* navbar */
+
+#navbar {
+  width: auto;
+  height: 100px;
+}
+
+#nav-icon {
+  width: 100px;
+  height: 100px;
+  float: left;
+  padding: 0;
+  margin-left: 50px;
+}
+
+.nav-button-container {
+  display: flex;
+  align-items: center;
+  float: right;
+  height: 100%;
+  width: 50%;
+  justify-content: space-evenly;
+}
+
+#dive-logo {
+  width: 100%;
+  height: 100%;
+}
+
+.nav-buttons {
+  list-style: none;
+  float: right;
+  text-decoration: none;
+}
+
+.nav-buttons a {
+  text-decoration: none;
+  font-weight: bold;
+  color: darkgrey;
+}
